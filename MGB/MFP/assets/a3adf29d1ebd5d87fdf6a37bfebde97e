@@ -1,0 +1,27 @@
+{
+	"orgainization": "MGB",
+	"environment": "POC",
+	"authtimeoutminutes": "5",
+	"DevelopmentMode": "Off",
+	"DebugConfig": "On",
+	"loginType": "PHS",
+	"getcensusbyunit": "https://dev-webapi.partners.org/Epic/REST/2014/PHS/Custom/GeneratedService/Patient/GETCENSUSBYUNIT2/Census2/POC?UnitID=",
+	"setpatientphotooperation": "https://dev-webapi.partners.org/api/Epic/SOAP/2016/PatientAccessMobile.Services/SetPatientPhoto/POC",
+	"getpatientphotooperation": "https://dev-webapi.partners.org/api/Epic/SOAP/2016/PatientAccessMobile.Services/GetPatientPhotos/POC",
+	"fhirpatientsearch": "https://dev-webapi.partners.org/POC/api/FHIR/PHSFHIR/STU3/Patient?identifier=External%7C",
+	"fhirencountersearch": "https://dev-webapi.partners.org/POC/api/FHIR/PHSFHIR/STU3/Encounter?patient=",
+	"fhirpractitionerread": "https://dev-webapi.partners.org/POC/api/FHIR/PHSFHIR/STU3/Practitioner/",
+	"pictographendpointdomain": "https://pictographer.partners.org",
+	"oauth2authorizationendpoint": "https://stage-ws-interconnect-fhir.partners.org/Interconnect-FHIR-MU-TST/oauth2/authorize",
+	"oauth2tokenendpoint": "https://dev-webapi.partners.org:8443/auth/oauth/v2/token",
+	"clientid": "087d07d9-ebb7-4e0a-b381-7fa856a60aa1",
+	"serviceaccountusername": "SA1023",
+	"serviceaccountpw": "E5dBc4oz",
+	"unitlist": [
+		{"key": "10030011173", "unitName": "BWH CWN 6S NBRHOOD 1"},
+		{"key": "10030011174", "unitName": "BWH CWN 6S NBRHOOD 2"},
+		{"key": "10030010566", "unitName": "BWH CWN 6N NBRHOOD 3"},
+		{"key": "10030011198", "unitName": "BWH CWN 6N NBRHOOD 4"},
+		{"key": "10030011199", "unitName": "BWH CWN 6N NBRHOOD 5"}
+	]
+}
