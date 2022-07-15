@@ -1,0 +1,31 @@
+{
+	"orgainization": "NYP",
+	"environment": "TST",
+	"authtimeoutminutes": "500",
+	"DevelopmentMode": "PRD",
+	"DebugConfig": "Off",
+	"loginType": "CWID",
+	"getcensusbyunit": "https://icfg-np.et1089.epichosted.com/Interconnect-OAuth2-TST/api/epic/2014/access/Patient/GETCENSUSBYUNIT2/UnitCensus2?UnitID=",
+	"setpatientphotooperation": "https://icbg-np.et1089.epichosted.com/Interconnect-WebSvc-TST/wcf/Epic.PatientAccessMobile.Services/PatientAccessMobile.svc/basic_2016",
+	"getpatientphotooperation": "https://icbg-np.et1089.epichosted.com/Interconnect-WebSvc-TST/wcf/Epic.PatientAccessMobile.Services/PatientAccessMobile.svc/basic_2016",
+	"fhirpatientsearch": "https://icfg-np.et1089.epichosted.com/Interconnect-OAuth2-TST/api/FHIR/STU3/Patient?identifier=External|",
+	"fhirencountersearch": "https://icfg-np.et1089.epichosted.com/Interconnect-OAuth2-TST/api/FHIR/STU3/Encounter?patient=",
+	"fhirpractitionerread": "https://icfg-np.et1089.epichosted.com/Interconnect-OAuth2-TST/api/FHIR/STU3/Practitioner/",
+	"pictographendpointdomain": "https://nyppictogra01.sis.nyp.org",
+	"oauth2authorizationendpoint": "https://icfg-np.et1089.epichosted.com/Interconnect-OAuth2-TST/oauth2/authorize",
+	"oauth2tokenendpoint": "https://icfg-np.et1089.epichosted.com/Interconnect-OAuth2-TST/oauth2/token",
+	"oauth2introspectendpiont": "https://icfg-np.et1089.epichosted.com/Interconnect-OAuth2-TST/oauth2/Introspect",
+	"clientid": "087d07d9-ebb7-4e0a-b381-7fa856a60aa1",
+	"serviceaccountusername": "emp:CITD",
+	"iv": "",
+	"key": "",
+	"showwhitephotoondischarge": "False",
+	"unitlist": [
+		{"key": "502000070", "unitName": "MSCH 9 NORTH NICU"},
+		{"key": "502000064", "unitName": "MSCH 7 NICU A"},
+		{"key": "502000065", "unitName": "MSCH 7 NICU B"},
+		{"key": "502000066", "unitName": "MSCH 7 NICU C"},
+		{"key": "502000068", "unitName": "MSCH 8 INTR ICU"},
+		{"key": "101011018", "unitName": "WCMC ACH 15 NICU"}
+	]
+}
